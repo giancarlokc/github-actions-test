@@ -19,15 +19,13 @@
   "author": "GitHub",
   "license": "CC0-1.0",
   "devDependencies": {
-    "electron": "^7.1.1"
+    "electron": "^7.1.1",
+    "electron-builder": "^21.2.0"
   },
   "build": {
     "appId": "your.id",
     "mac": {
       "category": "your.app.category.type"
     }
-  },
-  "dependencies": {
-    "electron-builder": "^21.2.0"
   }
 }

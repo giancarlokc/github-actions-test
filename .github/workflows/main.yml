@@ -19,8 +19,8 @@ jobs:
     - uses: actions/setup-node@master
       with:
         node-version: 10.16
-    - name: see directory
-      run: ls
+    - name: Pack app
+      run: npm run pack
   build_on_win:
     runs-on: windows-2016
     steps:

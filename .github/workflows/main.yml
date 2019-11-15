@@ -6,7 +6,7 @@ on:
   push:
     branches:
     # this will run on the electron branch
-      - electron
+      - master
 
 # this is where the magic happens, each job happens in parallel btw
 jobs:
@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@master
       with:
-        ref: electron
+        ref: master
     - uses: actions/setup-node@master
       with:
         node-version: 10.16
